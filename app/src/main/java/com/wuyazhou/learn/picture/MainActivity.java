@@ -1,4 +1,4 @@
-package com.wuyazhou.learn.picasso;
+package com.wuyazhou.learn.picture;
 
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.wuyazhou.learn.logview.LogShowView;
-import com.wuyazhou.learn.picasso.use.PicassoUsePagerView;
+import com.wuyazhou.learn.picture.picasso.PicassoUsePagerView;
 import com.wuyazhou.pagerview.ModelPagerView;
 import com.wuyazhou.pagerview.ViewPagerAdapter;
 

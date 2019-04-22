@@ -1,4 +1,4 @@
-package com.wuyazhou.learn.picasso.use;
+package com.wuyazhou.learn.picture.picasso;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

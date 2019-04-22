@@ -1,4 +1,4 @@
-package com.wuyazhou.learn.picasso;
+package com.wuyazhou.learn.picture;
 
 import android.app.Application;
 

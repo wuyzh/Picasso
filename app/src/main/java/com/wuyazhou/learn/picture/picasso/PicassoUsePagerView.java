@@ -1,4 +1,4 @@
-package com.wuyazhou.learn.picasso.use;
+package com.wuyazhou.learn.picture.picasso;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 import com.squareup.picasso.Picasso;
 import com.wuyazhou.learn.logview.LogShowUtil;
-import com.wuyazhou.learn.picasso.R;
+import com.wuyazhou.learn.picture.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -71,6 +71,6 @@ public class PicassoUsePagerView extends FrameLayout {
     @OnClick(R.id.model_button_2)
     void onClickButton02(){
         LogShowUtil.addLog("Picasso","点击按钮02");
-        Picasso.with(mContext).load((IMAGE_URL_2)).error(R.drawable.clear).into(mImageView);
+        Picasso.with(mContext).load((IMAGE_URL_2)).placeholder(R.drawable.ic_launcher_background).error(R.drawable.clear).into(mImageView);
     }
 }
